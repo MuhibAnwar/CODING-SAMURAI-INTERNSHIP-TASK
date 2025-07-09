@@ -3,57 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO </title>
+    <title>PORTFOLIO</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>MUHIB ANWAR</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-              <li><a href="#">VIEW MY RESUME</a></li>
-        </ul>
-        </ul>
+     <nav class="navbar" >
+   <div class="container navbar-content">
+        <h1 id="name"class="navbar-brand">Muhib Anwar</h1>
+   
+        <div class="navbar-links">
+            <a href="main.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Portfolio</a>
+            <a href="#contact">Contact</a>
+        <a href="https://underlying-indigo-fe3kwe5zol.edgeone.app/Screenshot%202025-07-08%20231549.png">VIEW MY RESUME</a>
+        </div>
+</div>
     </nav>
-    </header>
-    <div>
-    <h2>About me!</h2>
-    <p> I am a passionate and dedicated individual with intermediate-level computer skills, continuously striving to expand
- my knowledge and expertise in the field. Proficient in a range of technologies and software, I excel in problem
-solving, critical thinking, and adapting to new challenges. My enthusiasm for technology drives me to stay updated
- with industry trends, ensuring I bring innovative solutions and a fresh perspective to every project. With a strong
+<header class="hero-section">
+    <div class="container">
+        <img src="https://placehold.co/150x150/ffffff/000000?text=MA" alt="Muhib Anwar" width="200px" height="200px" class="center" class="profile-pic">
+        <h1 class="hero-class">Hi, I'm Muhib Anwar </h1>
+        <p class="subtitle">
+Passionate to make dynamic world | Agentic AI Engineer
+        </p>
+        <a href="#projects" class="hero-button">View my Work</a>
+    </div>
+</header>
+<section  id="about" class="section-common">
+<div  class="container">
+    <h2 class="section-title">About me!</h2>
+    <p class="section-paragraph">  I am a passionate and dedicated individual with intermediate-level computer skills, continuously striving to expand
+ my knowledge and expertise in the field.
+  Proficient in a range of technologies and software, I excel in problem
+solving, critical thinking, and adapting to new challenges.</p> 
+ <p class="section-paragraph">
+My enthusiasm for technology drives me to stay updated
+ with industry trends, ensuring I bring innovative solutions and a fresh perspective to every project. 
+ With a strong
  commitment to personal growth, I am eager to contribute my skills to a dynamic and forward-thinking team.</p>
 </div>
+</section>
+<section  id="projects" class="section-common">
 <div>
-    <h2>Projects</h2>
-    <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
-        <li>Project 3</li>
-    </ul>
+    <h2 class="section-title">Projects</h2>
+    <div class="container">
+         <div class="project-card">
+                    <img src="https://inevitable-crimson-uqwmckvchg.edgeone.app/Screenshot%202025-07-09%20003436.png" alt="Project 1" class="project-image">
+                    <h3 class="project-title">FoodTuck</h3>
+                    <p class="project-description">A responsive landing page built with HTML and CSS, showcasing modern design principles.</p>
+                    <a href="https://food-tuck-roan.vercel.app/" class="project-button">View Project</a>
+                </div>
+                 <div class="project-card">
+                    <img src="https://uptight-aquamarine-0jq00sbjiy.edgeone.app/Screenshot%202025-07-09%20003510.png" alt="Project 1" class="project-image">
+                    <h3 class="project-title">SoleMate</h3>
+                    <p class="project-description">A responsive landing page built with HTML and CSS, showcasing modern design principles.</p>
+                    <a href="https://sole-mate-henna.vercel.app/" class="project-button">View Project</a>
+                </div>
+                 <div class="project-card">
+                    <img src="https://blind-chocolate-mzarc9wanj.edgeone.app/Screenshot%202025-07-09%20140033.png" alt="Project 1" class="project-image">
+                    <h3 class="project-title">Streamlit</h3>
+                    <p class="project-description">A responsive landing page built with HTML and CSS, showcasing modern design principles.</p>
+                    <a href="https://growth-mindset-q3muhibanwar.streamlit.app/" class="project-button">View Project</a>
+                </div>
+   </div>
 </div>
-<div>
-    <h2>Contact</h2>
-    <input type="text" placeholder="Name">
-    <input type="email" placeholder="Email">
-    <textarea placeholder="Message"></textarea>
-    <button>Send</button>
+</section> 
+<!-- ✅ Contact Section -->
+<section id="contact" class="section-common">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-paragraph">
+      I'm always open to new opportunities and collaborations. Feel free to reach out!
+    </p>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- ✅ Social Links -->
+    <div class="contact-social-links">
+      <a href="www.linkedin.com/in/muhibanwar607270b311" target="_blank" aria-label="LinkedIn">
+        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+        </svg>
+      </a>
+      <a href="https://github.com/MuhibAnwar" target="_blank" aria-label="GitHub">
+        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill-rule="evenodd" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.799 8.205 11.385.6.11.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.043-1.61-4.043-1.61-.546-1.387-1.334-1.756-1.334-1.756-1.09-.745.083-.73.083-.73 1.205.085 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.49.998.108-.775.419-1.305.762-1.605-2.665-.3-5.464-1.332-5.464-5.93 0-1.31.465-2.382 1.235-3.22-.125-.3-.535-1.52.117-3.176 0 0 1.005-.322 3.3.995.957-.266 1.983-.4 3.003-.404 1.02.004 2.046.138 3.003.404 2.29-1.317 3.295-.995 3.295-.995.652 1.656.242 2.876.118 3.176.77.838 1.233 1.91 1.233 3.22 0 4.61-2.8 5.625-5.475 5.92.43.37.81 1.096.81 2.22 0 1.606-.015 2.895-.015 3.286 0 .318.21.69.825.577C20.565 21.796 24 17.302 24 12c0-6.627-5.373-12-12-12z" clip-rule="evenodd"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Resume Button -->
+<div class="resume-link">
+  <h3><a href="https://underlying-indigo-fe3kwe5zol.edgeone.app/Screenshot%202025-07-08%20231549.png" target="_blank">View My Resume</a></h3>
 </div>
-<div>
-    <h2>Follow me</h2>
-    <ul>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">Twitter</a></li>
-    </ul>
-</div>
-<a>
-<h3 ><a href="resume.html">VIEW MY RESUME</a></h3>
-<footer>&copy; 2025 Muhib Anwar. CODING SAMUREI</footer>
+
+<footer class="footer" >&copy; 2025 Muhib Anwar. CODING SAMUREI</footer>
+
 
 </body>
 </html>
