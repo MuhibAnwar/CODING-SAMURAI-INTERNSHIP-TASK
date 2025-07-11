@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md p-4 sticky top-0 z-50">
+        <nav class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <!-- Logo/Brand Name -->
+            <a href="#" class="text-2xl font-bold text-indigo-600 mb-4 md:mb-0">NextGenTechie</a>
+
+            <!-- Navigation Links -->
+            <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
+                <a href="#features" class="text-gray-600 hover:text-indigo-600 font-medium rounded-md px-3 py-2 transition duration-300 ease-in-out">Services</a>
+                <a href="#testimonials" class="text-gray-600 hover:text-indigo-600 font-medium rounded-md px-3 py-2 transition duration-300 ease-in-out">Testimonials</a>
+                <a href="#signup" class="text-gray-600 hover:text-indigo-600 font-medium rounded-md px-3 py-2 transition duration-300 ease-in-out">Subscribe Us</a>
+                <a href="#" class="bg-indigo-600 text-white px-5 py-2 rounded-full hover:bg-indigo-700 transition duration-300 ease-in-out shadow-lg">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20 px-4 text-center rounded-b-lg shadow-xl">
+        <div class="container mx-auto max-w-3xl">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+                Passionate To Make Dynamic World.
+            </h1>
+            <p class="text-lg sm:text-xl mb-8 opacity-90">
+                Empowering the Future, One Line of Code at a Time.
+            </p>
+            <button class="bg-white text-indigo-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition duration-300 ease-in-out shadow-xl transform hover:scale-105">
+                Learn More
+            </button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 px-4 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-900">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+                    <div class="text-indigo-500 text-4xl mb-4">✨</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Web Development</h3>
+                    <p class="text-gray-600">Navigate with ease through our user-friendly interface. Everything you need, at your fingertips.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+                    <div class="text-indigo-500 text-4xl mb-4">🚀</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Blazing Fast Performance (SE0)</h3>
+                    <p class="text-gray-600">Optimized for speed, our product ensures you never wait. Get things done, faster.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+                    <div class="text-indigo-500 text-4xl mb-4">🔒</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Cyber Security</h3>
+                    <p class="text-gray-600">Your data is safe with us. We employ the latest encryption and security protocols.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+                    <div class="text-indigo-500 text-4xl mb-4">🤝</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">AI Chatbots</h3>
+                    <p class="text-gray-600">Work together effortlessly. Share, edit, and collaborate in real-time.</p>
+                </div>
+                <!-- Feature 5 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+                    <div class="text-indigo-500 text-4xl mb-4">📈</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Advanced Analytics</h3>
+                    <p class="text-gray-600">Gain deep insights with comprehensive analytics and reporting tools.</p>
+                </div>
+                <!-- Feature 6 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+                    <div class="text-indigo-500 text-4xl mb-4">📱</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Mobile Development</h3>
+                    <p class="text-gray-600">Access your work from anywhere, on any device, with our fully responsive design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-gray-100 py-16 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-900">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-indigo-500">
+                    <p class="text-gray-700 italic mb-6">"This product has transformed the way we work. The efficiency gains are incredible, and the support team is top-notch!"</p>
+                    <div class="flex items-center">
+                        <img src="https://placehold.co/60x60/a78bfa/ffffff?text=JD" alt="User Avatar" class="w-16 h-16 rounded-full mr-4 object-cover border-2 border-indigo-300">
+                        <div>
+                            <p class="font-semibold text-gray-900">Jane Doe</p>
+                            <p class="text-sm text-gray-500">CEO, Tech Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-indigo-500">
+                    <p class="text-gray-700 italic mb-6">"I've tried many tools, but nothing compares to the simplicity and power of this one. Highly recommend it to everyone!"</p>
+                    <div class="flex items-center">
+                        <img src="https://placehold.co/60x60/a78bfa/ffffff?text=AS" alt="User Avatar" class="w-16 h-16 rounded-full mr-4 object-cover border-2 border-indigo-300">
+                        <div>
+                            <p class="font-semibold text-gray-900">Alex Smith</p>
+                            <p class="text-sm text-gray-500">Marketing Director, Global Corp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Signup Form Section -->
+    <section id="signup" class="bg-gradient-to-br from-purple-600 to-indigo-700 py-20 px-4 text-white text-center rounded-t-lg shadow-xl">
+        <div class="container mx-auto max-w-2xl">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-8">Ready to Get Started?</h2>
+            <p class="text-lg mb-10 opacity-90">Join thousands of satisfied users today and transform your workflow.</p>
+
+            <!-- Signup Form -->
+            <form class="bg-white p-8 rounded-xl shadow-2xl max-w-md mx-auto text-left">
+                <div class="mb-6">
+                    <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition duration-200" required>
+                </div>
+                <div class="mb-6">
+                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition duration-200" required>
+                </div>
+                <div class="mb-8">
+                    <label for="password" class="block text-gray-700 text-sm font-bold mb-2"></label>
+                    <input type="password" id="password" name="text" placeholder="Suggest Us" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition duration-200" required>
+                </div>
+                <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full w-full transition duration-300 ease-in-out shadow-lg transform hover:scale-105">
+                    Subcribe 
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-10 px-4 rounded-t-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <!-- Copyright -->
+            <p class="mb-4 md:mb-0">&copy; 2025 Muhib Anwar. CODING SAMUREI</p>
+
+            <!-- Footer Navigation -->
+            <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
+                <a href="#" class="text-gray-300 hover:text-white transition duration-300 ease-in-out">Privacy Policy</a>
+                <a href="#" class="text-gray-300 hover:text-white transition duration-300 ease-in-out">Terms of Service</a>
+                <a href="#" class="text-gray-300 hover:text-white transition duration-300 ease-in-out">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
