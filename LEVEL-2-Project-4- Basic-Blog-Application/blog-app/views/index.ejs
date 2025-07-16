@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Posts</title>
+</head>
+<body>
+  <h1>All Blog Posts</h1>
+  <a href="/new">Create New Post</a>
+  <hr />
+  <% posts.forEach(post => { %>
+    <div>
+      <h2><%= post.title %></h2>
+      <p><%= post.content %></p>
+      <small>Author: <%= post.author %> | Created: <%= post.createdAt.toDateString() %></small>
+      <hr />
+    </div>
+  <% }) %>
+</body>
+</html>
